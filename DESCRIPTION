@@ -1,0 +1,19 @@
+Package: student
+Title: Tools to Help Students Use R Interactively
+Version: 0.1.0
+Authors@R: 
+    person(given = "Ahmed",
+           family = "Darwish",
+           role = c("aut", "cre"),
+           email = "your_email@example.com")
+Description: This package helps students interact with R using readline to make the
+    process more accessible and intuitive.
+License: MIT + file LICENSE
+Encoding: UTF-8
+RoxygenNote: 7.3.2
+Depends: R (>= 4.0.0)
+Imports:
+  nlme,
+  ggplot2,
+  dplyr,
+  roxygen2
